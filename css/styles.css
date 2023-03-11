@@ -16,4 +16,17 @@ body {
 
 .logo:hover {
     color: var(--accent-color);
+
 }
+
+.site-nav {
+    color: #212121;
+}
+
+.hero-title   {
+      color: #FFFFFF;;
+  }
+
+.section-title  {
+     color:#212121;
+ }
