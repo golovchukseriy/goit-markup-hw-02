@@ -5,7 +5,10 @@
     --primary-white-color: #ffffff;
 }
 
-
+body {
+    background-color: var(--primary-white-color);
+    color : var(--primary-text-color);
+}
 .logo:hover {
     color: var(--accent-color);
 }
@@ -27,11 +30,15 @@
   }
 
 .section-title  {
-     color: var(--title-text-color)1;
+     color: var(--title-text-color);
  }
 
  /*features*/
  
  .feature-list .title {
     color: var(--title-text-color)
+ }
+ .buttom {
+background-color: var(--accent-color);
+ color: var(--primary-white-color);
  }
