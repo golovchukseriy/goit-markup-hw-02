@@ -5,28 +5,33 @@
     --primary-white-color: #ffffff;
 }
 
-body {
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
-}
-
-.logo {
-    color: var(--title-text-color);
-}
 
 .logo:hover {
     color: var(--accent-color);
-
 }
 
-.site-nav {
-    color: #212121;
+.site-nav .link {
+    color : var(--title-text-color);
 }
+
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:var(--accent-color);
+}
+
 
 .hero-title   {
-      color: #FFFFFF;;
+      color: #ffffff;
+      background-color: #2F303A;
   }
 
 .section-title  {
-     color:#212121;
+     color: var(--title-text-color)1;
+ }
+
+ /*features*/
+ 
+ .feature-list .title {
+    color: var(--title-text-color)
  }
