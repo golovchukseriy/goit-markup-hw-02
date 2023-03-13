@@ -49,13 +49,15 @@ body {
     color: var(--primary-white-color);
 }
 
-.button {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-}
+
 
 
 .button.secondary {
     background-color: #F5F4FA;
     color: var(--title-text-color);
+}
+
+.button.secondary :hover,
+.button.secondary:focus {
+    color: var(--accent-color);
 }
