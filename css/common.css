@@ -8,14 +8,33 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
 }
 
 .logo:hover {
     color: var(--accent-color);
 }
+.logo {
+    font-family: raleway;
+    color : var(--accent-color);
+
+    
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+}
+
+.logo .span {
+    color : var(--title-text-color) ;
+}
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
 }
 
 
@@ -31,6 +50,14 @@ body {
 .hero-title {
     color: #ffffff;
     background-color: #2F303A;
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+            
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 .section-title {
@@ -47,6 +74,14 @@ body {
 .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        display: flex;
+        align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
 }
 
 
